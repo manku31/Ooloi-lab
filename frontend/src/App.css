@@ -1,0 +1,14 @@
+/* .App-header {
+  background-color: lightgray;
+  padding: 10px;
+} */
+
+#root {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
