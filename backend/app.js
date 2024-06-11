@@ -4,7 +4,7 @@ import { routes } from "./routes/index.js";
 import { convertToApiError, handleError } from "./middlewares/errorHandling.js";
 
 const app = express();
-const port = 8000;
+const port = process.env.port || 8000;
 
 app.use(cors());
 
