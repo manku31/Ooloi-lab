@@ -2,7 +2,7 @@ import { useQuery } from "react-query";
 import * as oolib from "oolib";
 
 const fetchFormConfig = async () => {
-  const response = await fetch("http://localhost:8000/api/form/formdata");
+  const response = await fetch("api/form/formdata");
   if (!response.ok) {
     throw new Error("Network response was not ok");
   }
