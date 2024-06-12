@@ -1,5 +1,5 @@
 import express from "express";
-import { formDataController } from "../controllers/fromdataController.js";
+import { formDataController } from "../controllers/formDataController.js";
 
 const router = express.Router();
 
