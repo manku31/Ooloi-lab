@@ -2,7 +2,9 @@ import { useQuery } from "react-query";
 import * as oolib from "oolib";
 
 const fetchFormConfig = async () => {
-  const response = await fetch("api/form/formdata");
+  const response = await fetch(
+    "https://ooloi-lab-backend.onrender.com/api/form/formdata"
+  );
   if (!response.ok) {
     throw new Error("Network response was not ok");
   }
